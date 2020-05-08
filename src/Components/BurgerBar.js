@@ -1,5 +1,5 @@
 import React from 'react';
-import './BurgerBar.css';
+import './Styling/BurgerBar.css';
 
 function BurgerBar() {
     return (

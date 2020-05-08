@@ -30,6 +30,7 @@ import React from 'react';
 import clsx from 'clsx';
 import BurgerBar from './Components/BurgerBar.js';
 import './App.css';
+import HeaderPage from './Components/HeaderPage.js';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
@@ -146,6 +147,7 @@ export default function App() {
         })}
       >
         <div className={classes.drawerHeader} />
+        <HeaderPage />
         <Typography paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum

@@ -1,5 +1,5 @@
 import React from 'react';
-import './BurgerBar.css';
+import './Styling/SideBar.css';
 
 function SideBar() {
   return (
