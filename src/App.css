@@ -12,3 +12,8 @@
 .MuiListItem-gutters {
   padding-top: 16px;
 }
+
+.MuiIconButton-label:hover {
+  width: 200%;
+  color: grey;
+}
