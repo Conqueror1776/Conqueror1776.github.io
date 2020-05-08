@@ -28,7 +28,7 @@ export default App;
 */
 import React from 'react';
 import clsx from 'clsx';
-import BurgerBar from './BurgerBar.js';
+import BurgerBar from './Components/BurgerBar.js';
 import './App.css';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -39,17 +39,11 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 
 const drawerWidth = 240;
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -81,8 +75,6 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    //background: 'black',
-    //color: 'white',
   },
   drawerHeader: {
     display: 'flex',
@@ -111,7 +103,7 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function PersistentDrawerRight() {
+export default function App() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -178,7 +170,7 @@ export default function PersistentDrawerRight() {
       >
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+            <ChevronRightIcon />
           </IconButton>
         </div>
         <Divider />
