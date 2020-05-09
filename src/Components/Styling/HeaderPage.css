@@ -1,21 +1,32 @@
 #name {
-  width: auto;
-  height: 60vh;
+  width: 100%;
+  height: 80vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
   margin-bottom: 40vh;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa3cb, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa3cb, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #name h1 {
+  position: relative;
   font-size: 5rem;
-  padding-right: 30rem;
+  padding-right: 25rem;
   margin: 0;
+  transform: skewY(6deg);
 }
 
 #name h2 {
+  position: relative;
   font-size: 2rem;
-  padding-left: 10rem;
+  padding-right: 5rem;
   margin: 0;
+  transform: skewY(6deg);
 }
