@@ -4,8 +4,8 @@ import './Styling/HeaderPage.css';
 function HeaderPage() {
     return (
         <div id="name">
-        <h1>Elijah T.</h1>
-        <h2>Data Analyst & Web Developer</h2>
+          <h1>Elijah T.</h1>
+          <h2>Data Analyst & Web Developer</h2>
         </div>
     );
 
