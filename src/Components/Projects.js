@@ -3,10 +3,10 @@ import './Styling/Projects.css';
 
 function Projects() {
     return (
-        <div className='burger-bar'>
-          <div className='bar1'></div>
-          <div className='bar2'></div>
-          <div className='bar3'></div>
+        <div id='projects'>
+          <div className='project-section'>
+            <h1>My Projects</h1>
+          </div>
         </div>
     );
 
