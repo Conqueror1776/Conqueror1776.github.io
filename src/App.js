@@ -5,6 +5,7 @@ import './App.css';
 import HeaderPage from './Components/HeaderPage.js';
 import AboutMe from './Components/AboutMe.js'
 import Projects from './Components/Projects.js'
+import Contacts from './Components/Contacts.js'
 import { makeStyles} from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
@@ -123,6 +124,7 @@ export default function App() {
         <HeaderPage />
         <AboutMe />
         <Projects />
+        <Contacts />
       </main>
       <Drawer
         className={classes.drawer}

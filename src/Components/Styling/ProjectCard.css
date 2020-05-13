@@ -1,5 +1,5 @@
 #projectcard {
-  width: 30%;
+  width: 300px;
   margin: 5%;
   transition: all .3s;
 }
@@ -26,4 +26,12 @@
 
 #cardinternal {
   padding: 0;
+}
+
+.projectTags {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }

@@ -1,0 +1,40 @@
+#contact {
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+  font-size: large;
+}
+
+#icon {
+  transition: all .3s ease-in;
+}
+
+.iconImage {
+  margin: 0 20px;
+}
+
+#icon:hover {
+  transform: translate(0px,-4px);
+}
+
+.iconText {
+  opacity: 0%;
+  transition: all .3s ease-in;
+  /*transition: transform 1s;*/
+  margin-top: 5px;
+}
+
+#icon:hover .iconText {
+  opacity: 100%;
+  transform: translate(0px,-10px);
+}
