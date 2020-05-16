@@ -8,7 +8,7 @@
 
 .about-section {
   display: grid;
-  grid-template-columns: 15% 25% 20% 25% 15%;
+  grid-template-columns: 20% 25% 10% 25% 20%;
   grid-template-rows: 33% 33% 33%;
 }
 
@@ -23,6 +23,7 @@
 #about-1 {
   grid-column: 2 / span 1;
   grid-row: 1/ span 1;
+  text-align: center;
 }
 
 #about-2 {

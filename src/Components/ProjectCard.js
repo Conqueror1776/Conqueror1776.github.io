@@ -4,21 +4,19 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 
-function ProjectCard() {
+function ProjectCard(props) {
     return (
         <div id='projectcard'>
             <Card id='card'>
-              <CardContent id='cardinternal'>
+              <CardContent id='cardinternal' hover zoom>
                 <img className='projectImage' src={require('./img1.png')} alt="Stuff"/>
-                <h1> Title </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Varius sit amet mattis vulputate enim nulla aliquet porttitor.
-                Viverra suspendisse potenti nullam ac tortor vitae purus faucibus
-                ornare.</p>
-                <div className='projectTags'>
-                  <Button variant="contained">Source</Button>
-                  <Button variant="contained">See It</Button>
+                <div className='projectOverlay'>
+                  <h1> {props.title} </h1>
+                  <p>{props.children}</p>
+                  <div className='projectTags'>
+                    <Button variant="contained">Source</Button>
+                    <Button variant="contained">See It</Button>
+                  </div>
                 </div>
               </CardContent>
             </Card>

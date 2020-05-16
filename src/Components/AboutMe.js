@@ -29,18 +29,16 @@ function AboutMe() {
           <div className="about-section">
             <Card className={classes.root} variant="outlined" id="about-1">
               <CardContent>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.</p>
+                  <p> I am a current undergraduate student at Williams College,
+                   planning to double major in Computer Science and Statistics. </p>
                 </CardContent>
             </Card>
             <Card className={classes.root} variant="outlined" id="about-2">
               <CardContent>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.</p>
+                  <p> I am very interested and passionate about machine learning
+                   and its application to Data Analysis. I am interested by
+                   front end development, and enjoy learning about the web
+                    development process</p>
               </CardContent>
             </Card>
             <Card className={classes.root} variant="outlined" id="about-3">
