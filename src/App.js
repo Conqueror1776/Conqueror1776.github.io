@@ -142,23 +142,23 @@ export default function App() {
         </div>
         <Divider />
         <List>
-          <a href="#name">
+          <a href="#name" onClick={handleDrawerClose}>
             <ListItem button key="Home">
               <ListItemText margin='30px 30px' primary="Home" />
             </ListItem>
           </a>
-          <a href="#about-me">
+          <a href="#about-me" onClick={handleDrawerClose}>
             <ListItem button key="About Me">
               <ListItemText margin='30px 30px' primary="About Me" />
             </ListItem>
           </a>
           <a href="#projects">
-            <ListItem button key="Projects">
+            <ListItem button key="Projects" onClick={handleDrawerClose}>
               <ListItemText margin='30px 30px' primary="Projects" />
             </ListItem>
           </a>
           <a href="#contact">
-            <ListItem button key="Contact Me">
+            <ListItem button key="Contact Me" onClick={handleDrawerClose}>
               <ListItemText margin='30px 30px' primary="Contact Me" />
             </ListItem>
           </a>
