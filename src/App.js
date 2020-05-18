@@ -1,23 +1,16 @@
-import React from 'react';
-import clsx from 'clsx';
+import AboutMe from './Components/AboutMe.js';
 import BurgerBar from './Components/BurgerBar.js';
-import './App.css';
-import HeaderPage from './Components/HeaderPage.js';
-import AboutMe from './Components/AboutMe.js'
-import Projects from './Components/Projects.js'
 import Contacts from './Components/Contacts.js'
-import { makeStyles} from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
+import HeaderPage from './Components/HeaderPage.js';
+import Projects from './Components/Projects.js'
+
+import './App.css';
+import {AppBar, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemText, Toolbar, Typography}  from '@material-ui/core';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
+import clsx from 'clsx';
+import { makeStyles} from '@material-ui/core/styles';
+import React from 'react';
+
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
