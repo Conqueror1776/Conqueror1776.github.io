@@ -29,24 +29,26 @@ function AboutMe() {
           <div className="about-section">
             <Card className={classes.root} variant="outlined" id="about-1">
               <CardContent>
-                  <p> I am a current undergraduate student at Williams College,
-                   planning to double major in Computer Science and Statistics. </p>
+                  <p> I am currently an undergraduate at Williams College pursuing
+                  a B.A. in Computer Science and Statistics, with a concentration
+                  in Cognitive Science. </p>
                 </CardContent>
             </Card>
             <Card className={classes.root} variant="outlined" id="about-2">
               <CardContent>
-                  <p> I am very interested and passionate about machine learning
-                   and its application to Data Analysis. I am interested by
-                   front end development, and enjoy learning about the web
-                    development process</p>
+                  <p> I am currently deepening my skills in computer science,
+                  learning about the application of machine learning tools
+                  to statistical analysis and forecasting, as well as developing
+                  my skills as a front-end developer by learning React.
+                  </p>
               </CardContent>
             </Card>
             <Card className={classes.root} variant="outlined" id="about-3">
               <CardContent>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.</p>
+                  <p> I am also very passionate about the application of computer
+                  science to cognitive science, specifically in the use of artificial
+                  intelligence to model human behavior and decision making in order
+                  to render and create better models for the understanding of the human mind</p>
               </CardContent>
             </Card>
           </div>
