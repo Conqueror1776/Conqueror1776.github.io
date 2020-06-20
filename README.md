@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This personal portfolio was created using the Material-UI package for react
 
-https://Conqueror1776.github.io
+https://etchenko.github.io
 
 # Languages / Framework
 - React.js
