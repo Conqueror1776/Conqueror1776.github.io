@@ -9,7 +9,7 @@ function Contacts() {
         <div id='contact'>
           <h1>Contact Me</h1>
           <div className="socials">
-            <a href="https://www.github.com/Conqueror1776" id='icon'>
+            <a href="https://www.github.com/etchenko" id='icon'>
               <GitHubIcon fontSize='large' className='iconImage'/>
               <p className='iconText'>GitHub</p>
             </a>
